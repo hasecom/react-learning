@@ -1,4 +1,3 @@
-import React from "react"
 
 export const Child1:React.FC = () => {
   return (
