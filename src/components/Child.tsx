@@ -1,8 +1,13 @@
 import React from "react"
 
-const Child:React.FC = () => {
+export const Child1:React.FC = () => {
   return (
     <div>子コンポーネントですよ</div>
   )
 }
-export default Child
+
+export const Child2:React.FC = ()=> {
+  return (
+    <div>子コンポーネント2</div>
+  )
+}

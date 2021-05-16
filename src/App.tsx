@@ -1,4 +1,4 @@
-import Child from "./components/Child"
+import {Child1,Child2} from "./components/Child"
 import './App.css';
 
 
@@ -6,7 +6,8 @@ import './App.css';
 const App: React.FC = () => {
     return (
       <div className="App">
-        <Child />
+        <Child1 />
+        <Child2 />
       </div>
     )
 }
