@@ -4,8 +4,9 @@ import Home from "./scenes/Home"
 import About from "./scenes/About"
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div>
+      {process.env.PUBLIC_URL}
       <ul>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>
